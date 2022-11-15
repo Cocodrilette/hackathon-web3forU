@@ -51,30 +51,3 @@ const Borrow = () => {
 
 export default Borrow;
 
-// <form
-//   onSubmit={(e) => {
-//     e.preventDefault();
-//     handleSubmit();
-//   }}
-//   className="flex flex-col gap-2"
-// >
-//   <label className="text-left text-xl">Task name</label>
-//   <input
-//     type="text"
-//     placeholder="Name"
-//     className="border-2 border-slate-300 rounded-md p-2"
-//     onChange={(e) => setTasks({ ...tasks, taskName: e.target.value })}
-//   />
-//   <label className="text-left text-xl">Task description</label>
-
-//   <input
-//     type="text"
-//     placeholder="Description"
-//     className="border-2 border-slate-300 rounded-md p-2"
-//     onChange={(e) =>
-//       setTasks({ ...tasks, taskDescription: e.target.value })
-//     }
-//   />
-
-//   {Button()}
-// </form>;
