@@ -1,0 +1,63 @@
+#sideMenuContainer {
+  position: absolute;
+  top: 40px;
+  width: 400px;
+  background-color: rgb(192, 192, 192);
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.5);
+
+  animation: slideIn 0.3s ease-in-out;
+}
+
+#sideMenuNameContainer {
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+#sideMenuNameContainer > h1 {
+  position: relative;
+  height: fit-content;
+  top: -13px;
+  background-color: rgb(192, 192, 192);
+  width: 100px;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+}
+
+#closeSideMenuButton {
+  cursor: pointer;
+  right: 19px;
+  font-size: 20px;
+  font-weight: bold;
+  top: 8px;
+}
+
+#openButton {
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.5);
+}
+
+.collaterals {
+  color: black;
+  margin: 15px 10px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+#collateralsText {
+  background-color: rgb(192, 192, 192);
+  width: fit-content;
+  padding: 0 5px;
+  margin-top: -17px;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-400px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

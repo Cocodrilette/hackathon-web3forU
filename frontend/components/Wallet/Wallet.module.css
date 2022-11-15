@@ -1,0 +1,21 @@
+#walletContainer {
+  background-color: rgb(52, 101, 164);
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in;
+}
+
+#connectWalletButtonContainer {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#connectWalletButtonContainer > button {
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in-out;
+}
+
+#connectWalletButtonContainer > button:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

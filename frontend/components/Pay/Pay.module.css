@@ -1,0 +1,41 @@
+#payContainer {
+  background-color: rgb(192, 192, 192);
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.5);
+}
+
+#payNameContainer {
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+#payNameContainer > h1 {
+  position: relative;
+  height: fit-content;
+  top: -13px;
+  background-color: rgb(192, 192, 192);
+  width: 60px;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#payFunctionsContainer {
+  top: -24px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+#payWalletButtonContainer {
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in-out;
+}
+
+#payWalletButtonContainer:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
